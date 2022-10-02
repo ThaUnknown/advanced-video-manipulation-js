@@ -1,4 +1,4 @@
-# Fast Real Time JavaScript Video Manipulation/Postprocessing
+# Fast Real Time JavaScript Video Manipulation / Postprocessing
 
 Here I'll cover how to manipulate video rendering in a browser. This covers client-side manipulation using HTML and JS, not server-side manipulation.
 
@@ -166,3 +166,6 @@ Bu I'll opt for something most people likely never heard of or even used and tha
   }
 ```
 This offers quite a few benefits, mainly that we don't handle the post processing but the browser engine, which leads to a respectable performance gain. These filters may seem basic, but the URL option allows for the use of [SVG filters](https://yoksel.github.io/svg-filters/#/) which are incredibly powerful, however not widely used, which means you won't find many ready results out there. Here's a REALLY good article to get you started: https://blog.logrocket.com/complete-guide-using-css-filters-svgs/
+
+View Online: https://thaunknown.github.io/advanced-video-manipulation-js/01/
+Browse source code: https://github.com/ThaUnknown/advanced-video-manipulation-js/tree/main/01
